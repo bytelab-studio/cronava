@@ -1,0 +1,16 @@
+{
+  "name": "cronava",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run --prefix ../cronava-ui dev",
+	"build": "npm run --prefix ../cronava-ui build",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}
